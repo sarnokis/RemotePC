@@ -19,7 +19,9 @@ git clone [https://github.com/sarnokis/RemotePC](https://github.com/sarnokis/Rem
 cd RemotePC
 
 # Install dependencies
-npm install
+npm init -y
+npm install node-telegram-bot-api systeminformation child_process fs path screenshot-desktop axios
+npm install node-notifier osascript zenity
 ```
 # 🔧 Platform-Specific Setup
 Windows
